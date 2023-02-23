@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# モデルの定義
+# 모델 정의
 from sqlalchemy import Column, Float, String, ForeignKey
 from pydantic import BaseModel
 from db import Base
 from db import ENGINE
 
 
-# userテーブルのモデルUserTableを定義
+# user 테이블의 모델 UserTable 정의
 class FoodTable(Base):
     __tablename__ = 'FOOD'
     food_name = Column(String, primary_key=True, nullable=False)
@@ -65,7 +65,7 @@ class Result(BaseModel):
     weight_result: str
 
 def main():
-    # テーブルが存在しなければ、テーブルを作成
+    # 테이블이 없으면 테이블 만들기
     Base.metadata.create_all(bind=ENGINE)
 
 
