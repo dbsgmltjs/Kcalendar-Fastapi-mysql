@@ -1,0 +1,14 @@
+['/home/ubuntu/quantity_est/images/test/testfolder/Img_070_0001.jpg']
+/home/ubuntu/app/yolov3/data/samples/*.jpg 11
+0.25 /home/ubuntu/app/yolov3/data/samples/Dndnsm-2023.02.21-173936.jpg
+1 /home/ubuntu/app/yolov3/data/samples/A-2023.02.21-181829.jpg
+1.25 /home/ubuntu/app/yolov3/data/samples/Hisun-2023.02.21-170305.jpg
+1 /home/ubuntu/app/yolov3/data/samples/A-2023.02.21-174818.jpg
+1.25 /home/ubuntu/app/yolov3/data/samples/usersimg-2023.02.21-175751.jpg
+1.25 /home/ubuntu/app/yolov3/data/samples/usersimg-2023.02.21-175837.jpg
+0.75 /home/ubuntu/app/yolov3/data/samples/A-2023.02.21-181157.jpg
+0.25 /home/ubuntu/app/yolov3/data/samples/Dndnsm-2023.02.21-174031.jpg
+0.75 /home/ubuntu/app/yolov3/data/samples/usersimg-2023.02.21-165150.jpg
+1.25 /home/ubuntu/app/yolov3/data/samples/Hisun-2023.02.21-165710.jpg
+0.75 /home/ubuntu/app/yolov3/data/samples/Hisun-2023.02.22-170305.jpg
+result [0.25, 1, 1.25, 1, 1.25, 1.25, 0.75, 0.25, 0.75, 1.25, 0.75]

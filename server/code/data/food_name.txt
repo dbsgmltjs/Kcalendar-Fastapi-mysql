@@ -1,0 +1,11 @@
+Using CPU
+
+Model Summary: 225 layers, 6.47596e+07 parameters, 6.47596e+07 gradients
+image 1/11 data/samples/A-2023.02.21-174818.jpg: image 2/11 data/samples/A-2023.02.21-180457.jpg: 인식 안 됨
+감자밥
+image 3/11 data/samples/A-2023.02.21-181157.jpg: 쌀밥
+image 4/11 data/samples/A-2023.02.21-181829.jpg: image 5/11 data/samples/Dndnsm-2023.02.21-173936.jpg: image 6/11 data/samples/Dndnsm-2023.02.21-174031.jpg: image 7/11 data/samples/Hisun-2023.02.21-165710.jpg: 오므라이스
+image 8/11 data/samples/Hisun-2023.02.22-172305.jpg: 오므라이스
+image 9/11 data/samples/usersimg-2023.02.21-165150.jpg: 인식 안 됨
+image 10/11 data/samples/usersimg-2023.02.21-175751.jpg: 보리밥
+image 11/11 data/samples/usersimg-2023.02.21-170030.jpg: 감자밥
