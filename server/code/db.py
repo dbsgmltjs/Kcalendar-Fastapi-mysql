@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# DBへの接続設定
+# DB에 대한 연결 설정
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
 
 
-# 接続したいDBの基本情報を設定
+# 연결하려는 DB의 기본 정보 설정
 user_name = "user"
 password = "password"
 host = "db"  # docker-composeで定義したMySQLのサービス名
@@ -18,7 +18,7 @@ DATABASE = 'mysql://%s:%s@%s/%s?charset=utf8' % (
     database_name
 )
 
-# DBとの接続
+# DB와의 연결
 ENGINE = create_engine(
     DATABASE,
     #encoding="utf8",
@@ -27,7 +27,7 @@ ENGINE = create_engine(
     max_overflow=20
 )
 
-# Sessionの作成
+# 세션 만들기
 session = scoped_session(
     # ORM実行時の設定。自動コミットするか、自動反映するか
     sessionmaker(
@@ -37,7 +37,7 @@ session = scoped_session(
     )
 )
 
-# modelで使用する
+# 모델에서 사용
 Base = declarative_base()
-# DB接続用のセッションクラス、インスタンスが作成されると接続する
+# DB 연결을 위한 세션 클래스, 인스턴스가 생성되면 연결
 Base.query = session.query_property()
